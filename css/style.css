@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+body {
+    background-image: url(/assets/img/fondo.jpeg);
+}
+
+/** BARRA DE NAVEGACIÓN **/
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_container_marca {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url(/assets/img/fondo_2.jpeg);
+    background-size: auto;
+    border-radius: 100%;
+}
+.nav_container_marca_h {
+    font-size: 3.5rem;
+    color: #F00255;
+}
+.nav_container_marca_p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+.nav_a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 10px;    
+}
+
+/** tarjetas menu **/
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/assets/img/pizza_2.png);
+    background-size: cover;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 30px;
+    border-radius: 100%;
+}
+.menu_a {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/** tarjetas **/
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+}
+
+/** tarjetas pedido **/
+
+.pedido {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/assets/img/delivery.webp);
+    background-size: cover;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 30px;
+    border-radius: 100%;
+}
+.pedido_a {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/** tarjetas contacto **/
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/assets/img/contactanos.webp);
+    background-size: cover;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 30px;
+    border-radius: 100%;
+}
+.contacto_a {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/** tarjeta catering **/
+
+.catering {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.catering_div {
+    background-image: url(/assets/img/catering.jpeg);
+    background-size: cover;
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.catering_div_p {
+    color: #fff;
+    font-size: 2rem;
+    background-color: transparent;
+    opacity: 80%;
+}
+.catering_div_h {
+    color: #fff;
+    font-size: 2.5rem;
+    align-self: flex-end;
+}
+.catering_div_s {
+    color: #fff;
+    font-size: 2rem;
+    background-color: transparent;
+    opacity: 80%;
+}
+
+/** footer **/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.conainer__seccion_h {
+    font-size: 2rem;
+}
+.container__seccion_div_a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.container__redes_div_img {
+    width: 40px;
+    margin-right: 10px;
+}
