@@ -216,7 +216,8 @@ form {
     font-size: 1.3em;
 }
 .form__container button:focus {
-    
+    background-image: radial-gradient(#f00255, #8C0066 ); 
+    transition: 1s;  
 }
 .form__container button a {
     text-decoration: none;
@@ -242,11 +243,17 @@ form {
 .info__div_p {
     font-size: 2em;
     color: #fff;
+    text-align: center;
+}
+.container__ul {
+    display: flex;
+    justify-content: center;
 }
 ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 li {
     padding-top: 15px;
@@ -260,7 +267,19 @@ ul img {
 .info__p {
     font-size: 1.3em;
     color: #fff;
+    text-align: center;
 }
-@media (max-width: ) {
-
+.maps {
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+.maps iframe {
+    width: 100%;
+}
+@media (min-width: 844px) {
+    .container__div {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
 }
